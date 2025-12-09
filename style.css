@@ -1,0 +1,145 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2fdff;   
+    color: #222;
+}
+
+
+nav{
+    background: #e74a4a;    
+    color: rgba(255, 255, 255, 0.99);
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+}
+
+nav .logo{
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+.home-container{
+    padding: 60px;
+    text-align: center;
+}
+
+.home-container h1{
+    font-size: 40px;
+    color: #9f3030;
+}
+
+.home-container p{
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+}
+
+
+.about-container{
+    padding: 40px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #4ae7c0;
+}
+
+/* ------------ SKILLS PAGE ------------ */
+.skills-container{
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #4ae7c0;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background: #e6e9ff;
+}
+
+
+form{
+    width: 350px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #e7524a;
+    border-radius: 5px;
+}
+
+form button{
+    padding: 12px;
+    width: 100%;
+    background: #4a63e7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #cec936;
+}
